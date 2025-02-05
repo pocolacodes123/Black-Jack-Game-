@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    background : linear-gradient(300deg,black 97%, rgb(252, 12, 12) 5%);
+    text-align:center;
+}
+h1{
+    color:white;
+    font-size:50px;
+    color: white;
+    text-shadow: 12px 3px 5px red;
+   
+      
+    /* Clip the background to the text */
+
+    
+    /* Make the text itself transparent to show the gradient */
+
+    
+    /* For Firefox support */
+
+    font-family:'FancyFont';
+   
+   
+   
+}
+@font-face{
+    font-family:'FancyFont';
+    src: url('./fonts/CasinoShadow.woff2') format('woff2'), /* Modern browsers */
+    url('./fonts/CasinoShadow.woff') format('woff'),   /* Older browsers */
+    url('./fonts/CasinoShadow.ttf') format('truetype');
+
+
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+    font-weight:900;
+    font-family: 'Inter';
+    color: white;
+    
+   
+
+
+
+
+
+
+    
+  
+    margin-top:60px;
+    
+}
+
+
+
+
+
+.button_styling{
+    width:150px;
+    height:30px;
+    border-radius:5px;
+    background-color: white;
+    color:red;
+    font-family:"FancyFont";
+    font-size: medium;
+}
+.button_styling:hover{
+    background-color: red ;
+    color: white;
+
+}
+.button-frame{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    gap:10px;
+}
