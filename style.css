@@ -25,9 +25,9 @@ h1{
 }
 @font-face{
     font-family:'FancyFont';
-    src: url('./fonts/CasinoShadow.woff2') format('woff2'), /* Modern browsers */
-    url('./fonts/CasinoShadow.woff') format('woff'),   /* Older browsers */
-    url('./fonts/CasinoShadow.ttf') format('truetype');
+    src: url('CasinoShadow.woff2') format('woff2'), /* Modern browsers */
+    url('CasinoShadow.woff') format('woff'),   /* Older browsers */
+    url('CasinoShadow.ttf') format('truetype');
 
 
 }
